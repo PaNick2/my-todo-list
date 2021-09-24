@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+/* $chrome-yellow: rgba(250, 169, 22, 1);
+$opal: rgba(160, 193, 185, 1);
+$usafa-blue: rgba(38, 84, 124, 1);
+$cherry-blossom-pink: rgba(251, 172, 190, 1);
+$carmine: rgba(150, 3, 26, 1); */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: rgba(250, 169, 22, 1);
+    font-family: 'Caveat', cursive;
+    color: rgba(38, 84, 124, 1);
+    height: 100%;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    padding: 5px;
+    margin: auto;
+    margin-top: 0;
+    font-size: 5vw;
+    width:fit-content;
+    text-shadow: 2px 2px 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background: none;
+    width: 50%;
+    min-height: 350px;
+    height: fit-content;
+    border: 5px solid rgba(38, 84, 124, 0.7);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-container {
+    margin: 10px auto 25px auto;
+    display: block;
+    width: 90%;
+    height: fit-content;
+    min-height: 300px;
+    border: 2px solid rgba(150, 3, 26, 0.4);
 }

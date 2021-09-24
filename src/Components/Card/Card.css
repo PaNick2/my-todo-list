@@ -1,0 +1,21 @@
+/* $chrome-yellow: rgba(250, 169, 22, 1);
+$opal: rgba(160, 193, 185, 1);
+$usafa-blue: rgba(38, 84, 124, 1);
+$cherry-blossom-pink: rgba(251, 172, 190, 1);
+$carmine: rgba(150, 3, 26, 1); */
+
+
+/* .card-container {
+    margin: 10px auto 25px auto;
+    display: block;
+    width: 90%;
+    height: fit-content;
+    border: 2px solid rgba(150, 3, 26, 0.4);
+} */
+
+.todo-card {
+    margin: auto 20px;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+}
