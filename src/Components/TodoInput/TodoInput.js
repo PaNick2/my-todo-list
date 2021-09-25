@@ -5,7 +5,6 @@ import './TodoInput.css';
 const TodoInput = ({ todos, setTodos }) => {
     const handleKeyPress = (event) => {
         if(event.key === 'Enter'){
-          console.log('enter press here! ')
           todosUpdate()
         }
       }

@@ -1,12 +1,23 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ todoText}) => {
+const Card = ({ id, todoText}) => {
     return (
         <div className=''>
-            <div className='todo-card'>
-                <h2>{todoText}</h2>
-            </div>
+            <ul className='todo-card'>
+                <div className="eachItem">
+                    <li>
+                        <p
+                            onClick={event => event.target.classList.toggle("checked")}>{todoText}
+                        </p>
+                    </li>
+                    {/* <button>
+                            <img src="https://img.icons8.com/material-outlined/24/000000/trash--v1.png"/>
+                    </button> */}
+                </div>
+                
+                {/* <li><p onClick={event => event.target.remove()}>{todoText}</p></li> */}
+            </ul>
         </div>
 
     )

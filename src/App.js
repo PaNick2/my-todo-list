@@ -6,6 +6,14 @@ import TodoList from './Components/TodoList/TodoList';
 import { myTodos } from './myTodos.js';
 
 const App = () => {
+    var itemCounter = 0
+    const itemHandler = (action) => {
+        if (action === "add") {
+            
+        }
+    }
+
+    const mylist = document.querySelector
     const [todos, setTodos] = useState([])
     useEffect(() => {
         console.log(todos)

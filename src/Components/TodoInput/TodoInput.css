@@ -16,6 +16,7 @@ input, button {
     color: rgba(160, 193, 185, 1);
     border-radius: 10px;
     border-color: rgba(150, 3, 26, 0.5);
+    font-size: 1vw;
 }
 
 input {
@@ -28,7 +29,7 @@ input {
 button {
     width: 25%;
     margin-left: 2%;
-    font-size: 80%;
+    /* font-size: 80%; */
 }
 
 button:hover, input:hover, input:focus {
