@@ -12,7 +12,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "homepage": "http://PaNick2.github.io/my-todo-list",
+    "homepage": "http://PaNick2.github.io/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
